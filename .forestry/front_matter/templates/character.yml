@@ -1,4 +1,35 @@
 ---
 label: Character
 hide_body: true
-fields: []
+fields:
+- name: name
+  type: text
+  config:
+    required: true
+  label: Name
+  description: Rick and Morty <strong>name </strong>character
+- name: gender
+  type: text
+  config:
+    required: true
+  label: Gender
+  description: Rick and Morty <strong>gender</strong> character
+- name: status
+  type: text
+  config:
+    required: true
+  label: Status
+  description: Rick and Morty <strong>status</strong> character
+  default: unknown
+- name: species
+  type: text
+  config:
+    required: true
+  label: Species
+  description: Rick and Morty <strong>species</strong> character
+- name: image
+  type: file
+  config:
+    maxSize: 1
+  label: Image
+  description: Rick and Morty <strong>image</strong> character
