@@ -1,8 +1,8 @@
 {{ partial "header.html" . }}
 <main>
   <div class="characters">
-    {{ range .Site.Data.characters }}
-      {{ partial "character.html" . }}
+    {{ range where .Site.RegularPages "Section" "characters" }}
+      {{ partial "character.html" .Params }}
     {{ end }}
   </div>
 </main>
