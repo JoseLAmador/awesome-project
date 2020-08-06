@@ -6,16 +6,6 @@ webhook_url:
 sections:
 - type: directory
   path: content/characters
-  label: vamo
-  create: all
-  match: "**/*"
-  templates:
-  - santos
-- type: document
-  path: content/characters/**/*
-  label: Demito
-- type: directory
-  path: content/characters
   label: Characters
   create: all
   match: "**/*"
@@ -26,6 +16,9 @@ sections:
   label: Pages
   create: all
   match: "*"
+- type: document
+  path: content/characters/**/*
+  label: Demito
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
