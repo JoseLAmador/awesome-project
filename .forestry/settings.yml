@@ -5,6 +5,13 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: ''
+  label: nnn
+  create: all
+  match: "**/*"
+  templates:
+  - santos
+- type: directory
   path: content/characters
   label: Characters
   create: all
