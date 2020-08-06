@@ -1,4 +1,21 @@
 ---
 label: Santos
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
+- name: amadors
+  type: select
+  default: []
+  config:
+    required: true
+    options: []
+    source:
+      type: pages
+      section: heree
+      file: 
+      path: 
+  label: amadors
