@@ -6,11 +6,11 @@ webhook_url:
 sections:
 - type: directory
   path: content/characters
-  label: Santos
+  label: Luis
   create: all
   match: "**/*"
   templates:
-  - character
+  - block-character
 - type: document
   path: content/characters/**/*
   label: Demito
