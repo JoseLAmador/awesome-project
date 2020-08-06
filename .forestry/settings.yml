@@ -19,9 +19,9 @@ sections:
 - type: heading
   label: Demo
 - type: directory
-  path: ''
+  path: content/characters
   label: nnn
-  create: all
+  create: documents
   match: "**/*"
   templates:
   - santos
