@@ -9,8 +9,6 @@ sections:
   label: Pages
   create: all
   match: "*"
-- type: heading
-  label: Demo
 - type: directory
   path: content/characters
   label: Characters
