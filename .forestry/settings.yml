@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: content/characters
+  label: Demito
+  match: "**/*"
 - type: directory
   path: content/characters
   label: Characters
