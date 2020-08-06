@@ -1,4 +1,12 @@
 ---
 label: Demo block
 hide_body: true
-fields: []
+fields:
+- name: block_character
+  type: blocks
+  template_types:
+  - character
+  config:
+    min: 4
+    max: 8
+  label: Block character
