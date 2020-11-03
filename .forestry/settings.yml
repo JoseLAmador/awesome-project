@@ -5,6 +5,12 @@ admin_path:
 webhook_url: 
 sections:
 - type: heading
+  label: Sections
+- type: document
+  path: data/blocks/banner.yml
+  label: Porto
+  match: "**/*"
+- type: heading
   label: Demito
 - type: directory
   path: data/banners
