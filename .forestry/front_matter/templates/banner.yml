@@ -39,3 +39,4 @@ fields:
 pages:
 - content/banner/_index.md
 - data/banners/nuevo-banner.yml
+- data/banners/nuevo-curso.yml
