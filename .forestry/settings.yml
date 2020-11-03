@@ -9,7 +9,6 @@ sections:
 - type: document
   path: data/blocks/banner.yml
   label: Porto
-  match: "**/*"
 - type: heading
   label: Demito
 - type: directory
