@@ -5,6 +5,16 @@ admin_path:
 webhook_url: 
 sections:
 - type: heading
+  label: Demito
+- type: directory
+  path: data/banners
+  label: Demo here
+  create: documents
+  match: "**/*"
+  new_doc_ext: yml
+  templates:
+  - banner
+- type: heading
   label: Banner
 - type: document
   path: content/banner/_index.md
