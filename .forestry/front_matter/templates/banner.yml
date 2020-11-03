@@ -1,6 +1,6 @@
 ---
 label: Banner
-hide_body: false
+hide_body: true
 fields:
 - name: image
   type: file
