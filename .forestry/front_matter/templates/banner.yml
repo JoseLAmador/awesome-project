@@ -36,6 +36,20 @@ fields:
   type: boolean
   label: "¿Banner activo?"
   description: 'Para poder visualizar el banner recuerda activarlo '
+- name: bg_button
+  type: select
+  default: primary
+  config:
+    required: true
+    options:
+    - primary
+    - secondary
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Bgbutton
 pages:
 - content/banner/_index.md
 - data/banners/nuevo-banner.yml
