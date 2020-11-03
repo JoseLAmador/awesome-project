@@ -36,5 +36,3 @@ fields:
   type: boolean
   label: "¿Banner activo?"
   description: 'Para poder visualizar el banner recuerda activarlo '
-pages:
-- content/banner/vamo-a-ver.md
