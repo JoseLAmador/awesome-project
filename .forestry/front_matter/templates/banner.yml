@@ -2,9 +2,37 @@
 label: Banner
 hide_body: false
 fields:
-- name: Titulo
+- name: image
+  type: file
+  config:
+    maxSize: 5
+  label: Imagen
+  description: Imagen de banner
+- name: titulo
   type: text
   config:
     required: true
-  label: title
+  label: Título
   description: Aquí va el título del banner
+- name: mobile-title
+  type: text
+  config:
+    required: true
+  label: Título para dispositivos móviles
+  description: Aquí va el título que se mostrará para dispositivos móviles
+- name: url
+  type: text
+  config:
+    required: true
+  label: Url
+  description: Enlace
+- name: button-title
+  type: text
+  config:
+    required: true
+  label: Título del botón
+  description: Título del botón
+- name: active
+  type: boolean
+  label: "¿Banner activo?"
+  description: 'Para poder visualizar el banner recuerda activarlo '
