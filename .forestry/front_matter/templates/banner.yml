@@ -8,7 +8,7 @@ fields:
     maxSize: 5
   label: Imagen
   description: Imagen de banner
-- name: titulo
+- name: title
   type: text
   config:
     required: true
