@@ -1,0 +1,7 @@
+---
+image: "/uploads/2.jpeg"
+title: Nuevo banner
+mobile-title: Hello from mobile!
+url: "/cursos/ofertas"
+button-title: Ver Ofertas
+active: false

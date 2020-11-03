@@ -38,3 +38,4 @@ fields:
   description: 'Para poder visualizar el banner recuerda activarlo '
 pages:
 - content/banner/_index.md
+- data/banners/nuevo-banner.yml
