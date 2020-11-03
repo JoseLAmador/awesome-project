@@ -5,3 +5,4 @@ mobile-title: Hello from mobile!
 url: "/cursos/ofertas"
 button-title: Ver Ofertas
 active: false
+bg_button: primary
