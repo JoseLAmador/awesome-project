@@ -6,6 +6,10 @@ webhook_url:
 sections:
 - type: heading
   label: Banner
+- type: document
+  path: content/banner.md
+  label: Banner
+  match: "**/*"
 - type: directory
   path: content
   label: Pages
