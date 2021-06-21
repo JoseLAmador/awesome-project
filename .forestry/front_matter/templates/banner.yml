@@ -50,6 +50,29 @@ fields:
       file: 
       path: 
   label: Bgbutton
+- name: companies
+  type: field_group_list
+  fields:
+  - name: company
+    type: select
+    default: endeavor
+    config:
+      required: true
+      options:
+      - endeavor
+      - talent-republic
+      - world-economic-forum
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: company
+  config:
+    min: 1
+    max: 4
+    labelField: 
+  label: companies
 pages:
 - content/banner/_index.md
 - data/banners/nuevo-banner.yml
