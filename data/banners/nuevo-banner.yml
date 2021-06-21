@@ -6,3 +6,6 @@ url: "/cursos/ofertas"
 button-title: Ver Ofertas
 active: false
 bg_button: primary
+companies:
+- company: endeavor
+- company: talent-republic
