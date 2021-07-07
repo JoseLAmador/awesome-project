@@ -5,5 +5,44 @@
       {{ partial "character.html" .Params }}
     {{ end }}
   </div>
+  <div class="relative">
+    <form id="myForm">
+      <input type="text" name="name">
+      <input type="email" name="email">
+      <input type="text" name="message">
+      <button onclick="onSumbit(event)">Send</button>
+    </form>
+
+  </div>
 </main>
+<script>
+function onSumbit(event) {
+  event.preventDefault();
+  console.log('envs:', process.env);
+  const data = {
+    name: 'prueba2',
+    lastname: 'prueba',
+    email: 'prueba@bedu.org',
+    phone: '',
+    program: 'data-analysis',
+    permalink: 'https://netlify',
+  }
+  fetch('https://getform.io/f/b7b87b45-cc7e-4dcd-a3a2-2fbb177418ec', {
+        method: 'POST',
+        body: JSON.stringify(data),
+        headers: {
+          "Content-Type": "application/json"
+        }
+      })
+      .then( (response) => {
+        if(response.ok) {
+          document.getElementById("myForm").reset();
+          return;
+        }
+      })
+      .catch( (error) => {
+        console.log('error', error);
+      });
+}
+</script>
 {{ partial "footer.html" }}
